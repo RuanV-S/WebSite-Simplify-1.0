@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container{
+    width: 90%;
+    height: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-family: 'Fuzzy Bubbles';
+}
+
+.fab {
+    font-size: 1.5em;
+}
+
+.texto{
+    width: 40%;
+    height: 100%;
+    display: block;
+}
+
+.texto h2{
+    font-size: 3.5em;         
+}
+
+.texto p{
+    font-size: 1.2em;
+}
+
+.botao{
+    width: 35%;
+    height: 7vh;
+    margin-top: 40px;
+    border-radius: 0.2em;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.botao:hover{
+    padding: 0.5%;
+    font-weight: bold;
+}
+
+.imagem{
+    width: 45%;
+    height: 80%;    
+    border: 1px solid;
+    border-radius: 0.2em;
+    background: #fff;
+}
+
+.apresentacao{
+    padding-top: 25vh;
+    height: 70vh;
+    display: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+.apresentacao2{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.apresentacao h2{
+    margin: 10px auto;
+    font-size: 4em;
+    font-family: 'Fuzzy Bubbles'; 
+}
+
+.apresentacao2 h2{
+    margin: 10px auto;
+    font-size: 2em;
+    font-family: 'Fuzzy Bubbles'; 
+}
+
+.apresentacao p{
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.artigos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+article{
+    height: 55vh;  /* altura */
+    width: 25vw;
+    background-color: black;
+    margin: auto;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;  /* ONDE O TEXTO COMEÇA */     
+    border: 4px solid rgb(0, 0, 0);
+    
+}
+
+article .img{
+    width: 100%;
+    display: absolute;
+    flex-direction:column;
+    justify-content: center;  
+    height: 35vh;
+    align-items: center;
+    display: flex; 
+    border: 1px solid rgb(0, 0, 0);
+}
+article p{
+    font-size: 1.1em;
+}
+
+article .redirecionamento{
+    font-size: 0.8em;
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background: rgba(255, 255, 255, 0.514);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rover h2{
+    text-align: center;
+    font-family: 'Fuzzy Bubbles';
+}
+.rover p{
+    font-family: 'Fuzzy Bubbles';
+    text-align: center;
+}
+
+.grupo{
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-family: 'Fuzzy Bubbles'; 
+}
+
+.endereco{
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais {
+    color: #000;
+    font-size: 2em;
+}
+
+.redes-sociais:hover{
+    color: #5a0216;
+}
+
+.rover{
+    background-color: rgba(236, 236, 236, 0.178);
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;       
+    }
+     
+    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+    ::-webkit-scrollbar-track {
+    background:rgba(255, 255, 255, 0.164);
+    }
+     
+    /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando uma cor azul clara nela*/
+    ::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 10px;
+    }
